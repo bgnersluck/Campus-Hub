@@ -8,11 +8,14 @@ body{
 
 @media (prefers-color-scheme: dark) {
     body {
-        width     : 260px;
+        width     : 300px;
         min-height: 180px;
         margin    : 5px;
         background: #282626;
-        color     : #fff;
+        color     : #fff !important;
+    }
+    .site-card span {
+        color: #fff !important;
     }
 }
 
