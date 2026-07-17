@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Campus Hub",
+  "version": "1.0",
+  "description": "대학생들을 위한 대외활동, 공모전, 취업 정보 사이트를 한 곳에 모았습니다.",
+
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["icons/*.png"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+
+}
+
