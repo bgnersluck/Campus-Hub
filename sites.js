@@ -22,7 +22,8 @@ const sites = [
 
     {
         name:"올콘",
-        url:"https://www.all-con.co.kr/"
+        url:"https://www.all-con.co.kr/",
+        icon : "allcon_icon.png"
     },
 
     {
