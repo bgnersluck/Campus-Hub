@@ -23,7 +23,7 @@ const sites = [
     {
         name:"올콘",
         url:"https://www.all-con.co.kr/",
-        icon : "allcon_icon.png"
+        icon : "site_icons/allcon_icon.png"
     },
 
     {
@@ -54,13 +54,12 @@ const sites = [
     {
         name:"스펙업",
         url:"https://cafe.naver.com/specup",
-        icon : "specup_icon.png"
+        icon : "site_icons/specup_icon.png"
     },
 
     {
         name:"잡코리아",
         url:"https://www.jobkorea.co.kr"
     }
-
 
 ];

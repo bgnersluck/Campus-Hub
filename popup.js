@@ -10,8 +10,8 @@ sites.forEach(site => {
 
     const img = document.createElement("img");
 
-    const text = document.createElement("span");
-    text.textContent = site.name;
+    const label = document.createElement("span");
+    label.textContent = site.name;
 
     if (site.icon) {
         img.src = chrome.runtime.getURL(site.icon);
@@ -26,7 +26,7 @@ sites.forEach(site => {
 
     wrapper.appendChild(img);  
     card.appendChild(wrapper);
-    card.appendChild(text);
+    card.appendChild(label);
 
     siteList.appendChild(card);
 
